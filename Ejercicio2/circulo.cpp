@@ -1,7 +1,10 @@
+#include <iostream>
 #include <cmath>
 
 namespace Geometria {
-    double calcularAreaCirculo(double radio) {
-        return M_PI * radio * radio;
+    float calcularAreaCirculo(float radio) {
+        float area = M_PI * pow(radio, 2);
+        std::cout<<"El area del circulo es: "<<area<<std::endl;
+        return area;
     }
 }

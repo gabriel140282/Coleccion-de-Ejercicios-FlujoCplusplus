@@ -3,7 +3,7 @@
 
 namespace Geometria {
     float calcularAreaTriangulo(float base, float altura);
-    double calcularAreaCirculo(double radio);
+    float calcularAreaCirculo(float radio);
 }
 
 #endif //GEOMETRIA_H
