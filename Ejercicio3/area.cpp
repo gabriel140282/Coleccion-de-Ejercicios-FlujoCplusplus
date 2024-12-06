@@ -5,7 +5,7 @@
 
 namespace Geometria {
     void Circulo::calcularArea() const {
-        double area = M_PI * radio * radio;
-        std::cout << "Área del círculo: " << area << std::endl;
+        float area = M_PI * radio * radio;
+        std::cout << "Area del circulo: " << area << std::endl;
     }
 }

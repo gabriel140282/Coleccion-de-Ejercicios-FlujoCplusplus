@@ -5,15 +5,15 @@ namespace Geometria {
 
     class Circulo {
     private:
-        double radio;
+        float radio;
 
     public:
         // Constructor
-        Circulo(double r);
+        Circulo(float r);
 
         // Métodos para calcular área y perímetro
-        double calcularArea() const;
-        double calcularPerimetro() const;
+        void calcularArea() const;
+        void calcularPerimetro() const;
     };
 
     float calcularAreaTriangulo(float base, float altura);

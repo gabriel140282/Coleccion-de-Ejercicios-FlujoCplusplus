@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include "../Ejercicio2/geometria.h"
 
 namespace Geometria {
     float calcularAreaCirculo(float radio) {
