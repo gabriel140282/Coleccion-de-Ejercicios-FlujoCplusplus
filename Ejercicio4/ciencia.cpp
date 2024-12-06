@@ -2,15 +2,15 @@
 #include <iostream>
 #include <cmath>
 
-// Definición de la constante VELOCIDAD_DE_LA_LUZ
+//Defino la constante llamada VELOCIDAD_DE_LA_LUZ
 const float Ciencia::Fisica::VELOCIDAD_DE_LA_LUZ = 299792458.0;
 
-// Definición de la función calcularEnergia
+//Defino la función de calcularEnergia de tipo float
 float Ciencia::Fisica::calcularEnergia(float masa) {
     return masa * VELOCIDAD_DE_LA_LUZ * VELOCIDAD_DE_LA_LUZ;
 }
 
-// Definición de la función resolverEcuacionCuadratica
+//Defino esta función para calcular la ecuación de segundo grado y para comprobar que el resultado esté en los reales
 bool Ciencia::Matematicas::resolverEcuacionCuadratica(float a, float b, float c, float &x1, float &x2) {
     float discriminante = b * b - 4 * a * c;
 
@@ -23,7 +23,7 @@ bool Ciencia::Matematicas::resolverEcuacionCuadratica(float a, float b, float c,
     return true;
 }
 
-// Definición de la función Programa::ejecutar
+//Defino una función para ejecutar mi programa en el main.cpp
 void Programa::ejecutar(float masa, float a, float b, float c) {
     if (masa < 0) {
         std::cerr << "Error: La masa no puede ser negativa." << std::endl;

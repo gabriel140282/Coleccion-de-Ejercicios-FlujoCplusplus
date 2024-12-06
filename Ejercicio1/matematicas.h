@@ -1,7 +1,7 @@
 #ifndef MATEMATICAS_H
 #define MATEMATICAS_H
 
-namespace Matematicas {
+namespace Matematicas { //Declaro el namespace con los 2 tipos de funciones correspondientes (suma y resta)
     int suma(int a, int b);
     int resta(int a, int b);
 }

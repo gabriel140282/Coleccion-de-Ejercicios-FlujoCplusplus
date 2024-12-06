@@ -4,8 +4,8 @@
 
 void operarSet() {
     std::set<int> numerosUnicos = {10, 20, 30, 40};
-    numerosUnicos.insert(50); // Agregar un elemento
-    numerosUnicos.erase(20); // Eliminar un elemento
+    numerosUnicos.insert(50); //Agregamos un elemento del set
+    numerosUnicos.erase(20); //Eliminamos un elemento del set
     std::cout << "Elementos en el set: ";
     for (int num : numerosUnicos) {
         std::cout << num << " ";

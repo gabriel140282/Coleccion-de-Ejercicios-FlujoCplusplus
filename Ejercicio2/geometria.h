@@ -1,17 +1,17 @@
 #ifndef GEOMETRIA_H
 #define GEOMETRIA_H
 
-namespace Geometria {
+namespace Geometria { //Creo un namespace para las 2 figuras geométricas
 
     class Circulo {
     private:
         float radio;
 
     public:
-        // Constructor
+        //Constructor
         Circulo(float r);
 
-        // Métodos para calcular área y perímetro
+        //Agrego los métodos para calcular el área y perímetro
         void calcularArea() const;
         void calcularPerimetro() const;
     };

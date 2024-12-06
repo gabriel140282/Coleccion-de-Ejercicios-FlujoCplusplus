@@ -1,10 +1,10 @@
 #ifndef CIENCIA_H
 #define CIENCIA_H
 
-// Namespace principal para Ciencia
+//Creo un namespace para las dos asignaturas científicas (matemáticas y física)
 namespace Ciencia {
     namespace Fisica {
-        // Constante para la velocidad de la luz en metros por segundo (m/s)
+        //Agrego la variable constante de la velocidad de la luz
         extern const float VELOCIDAD_DE_LA_LUZ;
 
         float calcularEnergia(float masa);
@@ -15,7 +15,7 @@ namespace Ciencia {
     }
 }
 
-// Namespace para el programa principal
+//Creo un nuevo namespace para el ejecutar del programa
 namespace Programa {
     void ejecutar(float masa, float a, float b, float c);
 }
