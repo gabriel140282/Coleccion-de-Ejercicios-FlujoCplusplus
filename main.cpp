@@ -14,6 +14,6 @@ int main() {
     circulo.calcularArea();
     circulo.calcularPerimetro();
     Programa::ejecutar(40,2,4,1);
-    ejecutarOperacion(4);
+    ejecutarOperacion(2);
     return 0;
 }
